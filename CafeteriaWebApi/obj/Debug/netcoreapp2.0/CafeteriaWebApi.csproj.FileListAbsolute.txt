@@ -1,0 +1,12 @@
+D:\PointWest\CafetriaService\CafeteriaWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.deps.json
+D:\PointWest\CafetriaService\CafeteriaWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.runtimeconfig.json
+D:\PointWest\CafetriaService\CafeteriaWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.runtimeconfig.dev.json
+D:\PointWest\CafetriaService\CafeteriaWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.dll
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.csproj.CoreCompileInputs.cache
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.AssemblyInfoInputs.cache
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.AssemblyInfo.cs
+D:\PointWest\CafetriaService\CafeteriaWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.pdb
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.dll
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.pdb
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\PointWest\CafetriaService\CafeteriaWebApi\obj\Debug\netcoreapp2.0\CafeteriaWebApi.csprojAssemblyReference.cache

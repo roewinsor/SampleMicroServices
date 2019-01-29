@@ -1,0 +1,76 @@
+﻿@model CafeteriaService.Models.Booking
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutBooking.cshtml";
+}
+
+<!-- contact -->
+<section id="contact" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="header-h">Book Your table</h1>
+                <p class="header-p">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                    <br>nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                </p>
+            </div>
+        </div>
+        <div class="row msg-row">
+            <div class="col-md-8 col-sm-8">
+                <form   asp-action="Create" class="contactForm">
+                    <h3>@ViewData["Message"]</h3>
+                    <div> </div>
+                    <div class="col-md-6 col-sm-6 contact-form pad-form">
+                        <div class="form-group label-floating is-empty">
+                            <input asp-for="CustomerName" type="text" name="CustomerName" class="form-control" id="CustomerName" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6 contact-form">
+                        <div class="form-group">
+                            <input asp-for="BookingDate" class="form-control label-floating is-empty" name="BookingDate" id="BookingDate" placeholder="Date" data-rule="required" data-msg="This field is required" />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 contact-form pad-form">
+                        <div class="form-group">
+                            <input asp-for="Email" type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6 contact-form">
+                        <div class="form-group">
+                            <input asp-for="ContactNumber" type="text" class="form-control label-floating is-empty" name="ContactNumber" id="ContactNumber" placeholder="Phone" data-rule="required" data-msg="This field is required" />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 contact-form">
+                        <div class="form-group">
+                            <input asp-for="TotalPersons" type="text" class="form-control label-floating is-empty" name="TotalPersons" id="TotalPersons" placeholder="People" data-rule="required" data-msg="This field is required" />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 contact-form">
+                        <div class="form-group label-floating is-empty">
+                            <textarea asp-for="Message" class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-12 btnpad">
+                        <div class="contacts-btn-pad">
+                            <input type="submit" value="Book Table" class="contacts-btn"  />
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- / contact -->

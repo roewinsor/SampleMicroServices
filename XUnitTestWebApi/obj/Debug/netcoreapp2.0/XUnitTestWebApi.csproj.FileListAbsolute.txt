@@ -1,0 +1,16 @@
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\XUnitTestWebApi.deps.json
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\XUnitTestWebApi.runtimeconfig.json
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\XUnitTestWebApi.runtimeconfig.dev.json
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\XUnitTestWebApi.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.csprojResolveAssemblyReference.cache
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.csproj.CoreCompileInputs.cache
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.AssemblyInfoInputs.cache
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.AssemblyInfo.cs
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\XUnitTestWebApi.pdb
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\bin\Debug\netcoreapp2.0\CafeteriaWebApi.pdb
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.dll
+D:\PointWest\CafetriaService\XUnitTestWebApi\obj\Debug\netcoreapp2.0\XUnitTestWebApi.pdb

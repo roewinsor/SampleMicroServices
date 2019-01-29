@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafetria Service</title>
+
+    <environment include="Development">
+       <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+       <link rel="stylesheet" href="~/css/site.css" />-->
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+        <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Satisfy|Bree+Serif|Candal|PT+Sans">
+        <link rel="stylesheet" type="text/css" href="~/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="~/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    </environment>
+</head>
+<body>
+
+    <!--banner-->
+    <section id="banner">
+        <div class="bg-color">
+            <header id="header">
+                <div class="container">
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#about">About</a>
+                        <a href="#event">Event</a>
+                        <a href="#menu-list">Menu</a>
+                        <a   asp-controller="Booking" asp-action="Create">Book a table</a>
+                    </div>
+                    <!-- Use any element to open the sidenav -->
+                    <span onclick="openNav()" class="pull-right menu-icon">☰</span>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="inner text-center">
+                        <h1 class="logo-name">Delicious</h1>
+                        <h2>Food To fit your lifestyle & health.</h2>
+                        <p>Specialized in Indian Cuisine!!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / banner -->
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+
+        <!-- footer -->
+        <footer class="footer text-center">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-md-offset-3 col-md-6 text-center">
+                        <div class="widget">
+                            <h4 class="widget-title">Delicious</h4>
+                            <address>324 Ellte Road<br>Delhi, DL 110013</address>
+                            <div class="social-list">
+                                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            </div>
+                            <p class="copyright clear-float">
+                            &copy; 2018 - CafetriaService</p>
+                                <div class="credits">
+         
+                                </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- / footer -->
+
+    </div>
+
+    <environment include="Development">
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.easing.min.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="~/js/custom.js"></script>
+        <script src="~/js/contactform.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
